@@ -59,8 +59,8 @@ if($template == 1) {
 
 }
 
-$sid = "AC017760b7b650ab38901720f8c8aa4afd";
-$token = "904841c3ca4be025cbd5c541eae13f9b";
+$sid = "";
+$token = "";
 $client = new Twilio\Rest\Client($sid, $token);
 
 
